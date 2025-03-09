@@ -1,0 +1,26 @@
+\documentclass[acmsmall]{acmart}
+
+\title{Title}
+
+% Removes citation information below abstract
+\settopmatter{printacmref=false} 
+
+% Removes footnote with conference information in first column
+\renewcommand\footnotetextcopyrightpermission[1]{} 
+
+\begin{document}
+
+\begin{abstract}
+
+  This is an example citation \cite{kamp2022}.
+
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+\bibliography{references}
+\bibliographystyle{ACM-Reference-Format}
+
+\end{document}
